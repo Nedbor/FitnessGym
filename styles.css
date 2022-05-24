@@ -1,0 +1,467 @@
+/* Estilos predeterminados */
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.c1 {
+    color: #02bff9;
+}
+
+h1, h2, h3, h4, h5, h6, span, p, strong, a, label {
+    font-family: sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.iluminacion {
+    position: relative;
+    width: 700px;
+    height: 200px;
+}
+
+.iluminacion span {
+    position: absolute;
+    font-size: 150px;
+    color: transparent;
+    -webkit-text-stroke: 3px white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.iluminacion :last-child {
+    filter: blur(6px);
+}
+
+.btn {
+    background: white;
+    border: 0;
+    padding: 10px 50px;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    font-weight: bold;
+    color: #02bff9;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #02bff9;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11,.col-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+
+.col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.col-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+
+.col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+
+.col-11 {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.offset-8 {
+    margin-left: 66.66666%;
+}
+
+.offset-9 {
+    margin-left: 75%;
+}
+
+.m0 {
+    margin: 0 !important;
+}
+
+.pd0 {
+    padding: 0 !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+/* Estilos de Navegacion top */
+
+#navegacion-top {
+    background-color: #020202;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+#navegacion-top .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+#logo img {
+    display: block;
+}
+
+nav {
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    color: #02bff9;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 28px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    background-color: #02bff9;
+    color: black;
+    font-weight: bold;
+}
+
+/* Estilos Header */
+
+header {
+    height: 600px;
+    background:url("img/bg-header.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 515px;
+    padding-bottom: 424px;
+}
+
+.info-header {
+    width: 700px;
+    text-align: center;
+}
+
+.info-header p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+/* Seccion Who */
+
+#who {
+    background-color: black;
+    padding: 150px 0;
+}
+
+#who p {
+    color: #02bff9;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+#who h2 {
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+/* seccion we */
+
+#we {
+    color: white;
+    background-color: hsl(0deg 0% 8%);
+    padding: 140px;
+}
+
+.row h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.row p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* Seccion prioridades */
+
+#priorities {
+    background: url(img/bg-priorities.jpg);
+    background-size: cover;
+    padding: 100px 0 900px 0;
+}
+
+.caja-priorities {
+    background-color: #2c2c2cc9;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* seccion what */
+
+#what {
+    background-color: black;
+    padding: 90px 0;
+}
+
+.caja-what {
+    color: white;
+    text-align: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* seccion mensaje1 */
+
+#mensaje1 {
+    background-color: #141414;
+    padding: 160px;
+    text-align: center;
+}
+
+#mensaje1 p {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+#mensaje1 span {
+    font-size: 20px;
+}
+
+/* seccion nature */
+
+#nature {
+    background-color: black;
+}
+
+#nature img {
+    height: 870px;
+    display: block;
+}
+
+.info-nature {
+    padding: 255px 245px 0 245px;
+}
+
+.info-nature p {
+    text-align: justify;
+    line-height: 40px;
+}
+
+.info-nature h2 {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 35px;
+}
+
+/* seccion buy */
+
+#buy {
+    background: url(img/bg-buy.jpg);
+    height: 850px;
+    background-size: cover;
+}
+
+.info-buy {
+    color: white;
+    padding: 225px 0px 0px 0px;
+}
+
+.info-buy h2 {
+    font-size: 60px;
+}
+
+.info-buy p {
+    font-size: 20px;
+}
+
+/* seccion fechas */
+
+#fecha {
+    background-color: #141414;
+    color: white;
+    padding: 90px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* seccion mensaje2 */
+
+#mensaje2 {
+    background-color: #000000;
+    padding: 100px;
+    text-align: center;
+}
+
+#mensaje2 p {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+#mensaje2 span {
+    font-size: 20px;
+}
+
+/* seccion footer */
+
+footer {
+    background-color: #141414;
+    color: white;
+    padding: 100px 0;
+}
+
+.redes ul li a {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;  
+    font-size: 30px;
+}
+
+.redes ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.redes ul li a:hover {
+    background-color: black;
+    color: white;
+}
